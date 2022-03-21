@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+    <ImageView
+        android:id="@+id/btnDashboard"
+        android:layout_width="390dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_blue" />
+
+    <ImageView
+        android:id="@+id/btnDashboard1"
+        android:layout_width="41dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDashboard"
+        app:layout_constraintStart_toStartOf="@+id/btnDashboard"
+        app:layout_constraintTop_toTopOf="@+id/btnDashboard"
+        app:layout_constraintVertical_bias="0.181"
+        app:srcCompat="@drawable/products" />
+
+    <TextView
+        android:id="@+id/btnDashboard2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Products"
+        android:textColor="#426194"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnDashboard"
+        app:layout_constraintStart_toEndOf="@+id/btnDashboard1"
+        app:layout_constraintTop_toTopOf="@+id/btnDashboard"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <ImageView
+        android:id="@+id/btnLowStock"
+        android:layout_width="388dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="240dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_red" />
+
+    <ImageView
+        android:id="@+id/btnLowStock1"
+        android:layout_width="41dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLowStock"
+        app:layout_constraintStart_toStartOf="@+id/btnLowStock"
+        app:layout_constraintTop_toTopOf="@+id/btnLowStock"
+        app:layout_constraintVertical_bias="0.468"
+        app:srcCompat="@drawable/lowstocks" />
+
+    <TextView
+        android:id="@+id/btnLowStock2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Low Stocks"
+        android:textColor="#DF4B4B"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnLowStock"
+        app:layout_constraintStart_toEndOf="@+id/btnLowStock1"
+        app:layout_constraintTop_toTopOf="@+id/btnLowStock"
+        app:layout_constraintVertical_bias="0.489" />
+
+    <ImageView
+        android:id="@+id/btnTransaction"
+        android:layout_width="389dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="319dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_orange" />
+
+    <ImageView
+        android:id="@+id/btnTransaction1"
+        android:layout_width="41dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTransaction"
+        app:layout_constraintStart_toStartOf="@+id/btnTransaction"
+        app:layout_constraintTop_toTopOf="@+id/btnTransaction"
+        app:srcCompat="@drawable/transaction" />
+
+    <TextView
+        android:id="@+id/btnTransaction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="Transactions"
+        android:textColor="#BD6430"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTransaction"
+        app:layout_constraintStart_toEndOf="@+id/btnTransaction1"
+        app:layout_constraintTop_toTopOf="@+id/btnTransaction" />
+
+    <ImageView
+        android:id="@+id/imageRec1"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_white" />
+
+
+    <ImageView
+        android:id="@+id/imageCircle1"
+        android:layout_width="47dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageRec1"
+        app:srcCompat="@drawable/circle_blue" />
+
+    <ImageView
+        android:id="@+id/imageLogo1"
+        android:layout_width="29dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec1"
+        app:layout_constraintStart_toStartOf="@+id/imageRec1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/allproducts" />
+
+    <TextView
+        android:id="@+id/tvAllProducts1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="ALL PRODUCTS"
+        android:textColor="#426194"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec1"
+        app:layout_constraintStart_toStartOf="@+id/imageRec1"
+        app:layout_constraintTop_toTopOf="@+id/imageRec1"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:id="@+id/tvAllProductsValue1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lilita_one"
+        android:text="0"
+        android:textColor="#426194"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec1"
+        app:layout_constraintEnd_toEndOf="@+id/imageRec1"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/imageRec1"
+        app:layout_constraintTop_toTopOf="@+id/imageRec1"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageView
+        android:id="@+id/imageRec2"
+        android:layout_width="170dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_white" />
+
+    <ImageView
+        android:id="@+id/imageCircle2"
+        android:layout_width="47dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec2"
+        app:layout_constraintStart_toStartOf="@+id/imageRec2"
+        app:layout_constraintTop_toTopOf="@+id/imageRec2"
+        app:srcCompat="@drawable/circle_red" />
+
+    <ImageView
+        android:id="@+id/imageLogo2"
+        android:layout_width="22dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec2"
+        app:layout_constraintStart_toStartOf="@+id/imageRec2"
+        app:layout_constraintTop_toTopOf="@+id/imageRec2"
+        app:layout_constraintVertical_bias="0.448"
+        app:srcCompat="@drawable/warning" />
+
+    <TextView
+        android:id="@+id/tvAllProducts2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="LOW STOCKS"
+        android:textColor="#DF4B4B"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec2"
+        app:layout_constraintStart_toStartOf="@+id/imageRec2"
+        app:layout_constraintTop_toTopOf="@+id/imageRec2"
+        app:layout_constraintVertical_bias="0.81" />
+
+    <TextView
+        android:id="@+id/tvAllProductsValue2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="0"
+        android:textColor="#DF4B4B"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageRec2"
+        app:layout_constraintEnd_toEndOf="@+id/imageRec2"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="@+id/imageRec2"
+        app:layout_constraintTop_toTopOf="@+id/imageRec2"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="204dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.409"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTransaction"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/tvCopyright"
+        android:layout_width="282dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/lilita_one"
+        android:text="© Copyright by the Ken's Convenience Store."
+        android:textColor="#EF7D5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvReserved"
+        android:layout_width="290dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/lilita_one"
+        android:gravity="center"
+        android:text="ALL RIGHTS RESERVED"
+        android:textColor="#EF7D5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCopyright"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/lvProducts"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSearch" />
+
+    <ListView
+        android:id="@+id/lvProductsLow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editSearch" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

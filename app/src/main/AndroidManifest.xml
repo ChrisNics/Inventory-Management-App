@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inventorymanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventoryManagement">
+        <activity android:name=".dashboard">
+
+        </activity>
+        <activity android:name=".transaction">
+
+        </activity>
+        <activity
+            android:name=".viewProductsLow"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+        <activity
+            android:name=".lowProducts"
+            android:label="Low Stocks" />
+        <activity
+            android:name=".updateProducts"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Dialog.Alert1" />
+        <activity
+            android:name=".viewProducts"
+            android:label=""
+            android:theme="@style/Theme.AppCompat.Dialog.Alert" />
+        <activity
+            android:name=".addProducts"
+            android:label="" />
+        <activity
+            android:name=".Products"
+            android:label="" />
+        <activity
+            android:name=".MainActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

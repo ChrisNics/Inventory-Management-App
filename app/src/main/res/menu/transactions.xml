@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="TRANSACTIONS"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_clear_all_24"
+        android:title="Chart"
+        android:id="@+id/itemClear"/>
+    <item
+
+        app:showAsAction="always"/>
+    <item
+        app:showAsAction="always"/>
+
+
+
+
+</menu>
+
